@@ -5,7 +5,6 @@ import flixel.effects.FlxFlicker;
 import lime.app.Application;
 import states.editors.MasterEditorMenu;
 import options.OptionsState;
-
 enum MainMenuColumn {
 	LEFT;
 	CENTER;
