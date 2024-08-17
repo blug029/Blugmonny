@@ -132,8 +132,19 @@ class MainMenuState extends MusicBeatState
 		menuItem.scrollFactor.set();
 		menuItems.add(menuItem);
 		return menuItem;
-	}
 
+if(FlxG.save.data.antialiasing)
+    {
+     menuItem.antialiasing = true;
+    }
+   if (firstStart)
+    FlxTween.tween(menuItem,{y: 60 + (i * 160)},1 + (i * 0.25) ,{ease: FlxEase.expoInOut, onComplete: function(flxTween:FlxTween) 
+     { 
+      finishedFunnyMove = true; 
+      changeItem();
+     }});
+   else
+    menuItem.y = 60 + (i * 160);
 	
 	switch(i)
 	   {
