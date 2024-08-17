@@ -132,7 +132,7 @@ class MainMenuState extends MusicBeatState
 		menuItem.scrollFactor.set();
 		menuItems.add(menuItem);
 		return menuItem;
-
+    {
 if(FlxG.save.data.antialiasing)
     {
      menuItem.antialiasing = true;
