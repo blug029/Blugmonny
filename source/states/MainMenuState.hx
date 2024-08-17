@@ -25,10 +25,10 @@ class MainMenuState extends MusicBeatState
 
 	//Centered/Text options
 	var optionShit:Array<String> = [
-		'story_mode',
-		'freeplay',
-		#if MODS_ALLOWED 'mods', #end
-		'credits'
+		'story_mode', //0
+		'freeplay', //1
+		#if MODS_ALLOWED 'mods', #end //2
+		'credits' //3
 	];
 
 	var leftOption:String = #if ACHIEVEMENTS_ALLOWED 'achievements' #else null #end;
@@ -134,6 +134,21 @@ class MainMenuState extends MusicBeatState
 		return menuItem;
 	}
 
+	
+	switch i
+	   {
+                case 0
+			   menultem.x = 16
+	        case 1
+			   menultem.x = 16
+		case 2
+			   menultem.x = 16
+		case 3
+			   menultem.x = 16
+
+
+	           }
+	 }
 	var selectedSomethin:Bool = false;
 
 	var timeNotMoving:Float = 0;
