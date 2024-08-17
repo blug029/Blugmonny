@@ -138,17 +138,16 @@ class MainMenuState extends MusicBeatState
 	switch(i)
 	   {
                 case 0:
-			   menultem.x = 16;
+		  (menultem, {x:16;}
 	        case 1:
-			   menultem.x = 16;
+		  (menultem, {x:16;}
 		case 2:
-			   menultem.x = 16;
+		  (menultem, {x:16;}
 		case 3:
-			   menultem.x = 16;
+		  (menultem, {x:16;}
 
-
-	           }
-	 }
+	    }
+ }
 	var selectedSomethin:Bool = false;
 
 	var timeNotMoving:Float = 0;
