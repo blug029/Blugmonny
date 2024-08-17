@@ -135,16 +135,16 @@ class MainMenuState extends MusicBeatState
 	}
 
 	
-	switch i
+	switch (1)
 	   {
-                case 0
-			   menultem.x = 16
-	        case 1
-			   menultem.x = 16
-		case 2
-			   menultem.x = 16
-		case 3
-			   menultem.x = 16
+                case 0:
+			   menultem.x = 16;
+	        case 1:
+			   menultem.x = 16;
+		case 2:
+			   menultem.x = 16;
+		case 3:
+			   menultem.x = 16;
 
 
 	           }
