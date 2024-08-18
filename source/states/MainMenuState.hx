@@ -84,7 +84,7 @@ menuItem.updateHitbox();
 menuItem.screenCenter(X);
 
 	
-switch(1)
+switch(i)
 {
    case 0:
        FlxTween.tween(menuItem, {x:16}, 2.2, {ease: FlxEase.expoInOut});
